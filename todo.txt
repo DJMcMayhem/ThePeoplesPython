@@ -7,7 +7,6 @@ digital trauma
 howard
 primo
 davidc
-optimizer
 rainbolt
 jimmy23013
 orlp
@@ -31,5 +30,5 @@ histocrat
 lirtosiast
 randomra
 ugoren
-level river st
+steve verrill
 mbomb07
