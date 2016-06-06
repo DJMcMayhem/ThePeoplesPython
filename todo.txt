@@ -2,7 +2,6 @@ Usernames to definitely assign:
 
 marky markov (?)
 chris jester-young
-quartata
 digital trauma
 howard
 primo
@@ -11,7 +10,6 @@ rainbolt
 jimmy23013
 orlp
 NathanMerrill
-flawr
 fatalize
 ninjamonkeybear
 trichoplax
@@ -31,4 +29,5 @@ lirtosiast
 randomra
 ugoren
 steve verrill
-mbomb07
+minxomat
+minibits
