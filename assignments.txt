@@ -23,7 +23,7 @@ import =
 in = obrien
 is = 
 lambda = Starman
-nonlocal = 
+nonlocal = Sp3000
 not = 
 or = Homba
 pass = Maltysen
@@ -104,3 +104,5 @@ tuple =
 type = 
 vars = 
 zip = 
+
+(all subject to change)
