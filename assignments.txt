@@ -1,16 +1,16 @@
 KEYWORDS (33 total)
 
-False = Buttner
+False = Alex
 None = Geobits
 True = Dennis
-and = 
+and = digital
 as = optimizer
 assert = aditsu
-break = trauma
+break = 
 class = 
-continue = digital 
+continue =  
 def = quill
-del = orlp
+del = 
 elif = hobbies
 else = helkahomba
 except = irk
@@ -24,15 +24,15 @@ in = taylor
 is = peter
 lambda = starman
 nonlocal = sp3000
-not = 
+not = trauma
 or = xnor
 pass = maltysen
 raise = 
-return = alex
+return = buttner
 try = easterly
 while = molarmanful
-with = lynn
-yield = alexiswrong
+with = 
+yield = 
 
 BUILTINS (68 total)
 
@@ -73,7 +73,7 @@ int =
 isinstance = 
 issubclass = 
 iter = 
-len = 
+len = zyabin
 list = 
 locals = 
 map = doorknob
