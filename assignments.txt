@@ -1,13 +1,13 @@
 KEYWORDS (33 total)
 
-False = Alex
+False = Martin
 None = Geobits
 True = Dennis
 and = adnan
 as = 
 assert = 
 break = 
-class = 
+class = aditsu
 continue =  
 def = quill
 del = 
@@ -86,7 +86,7 @@ oct =
 open = 
 ord = 
 pow = 
-print = martin
+print = alex
 property = 
 range = drgreeneggsandhamdj
 repr = 
