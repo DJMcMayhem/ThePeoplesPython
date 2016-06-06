@@ -6,7 +6,7 @@ True = Dennis
 and = adnan
 as = 
 assert = 
-break = 
+break = flawr
 class = aditsu
 continue =  
 def = quill
@@ -37,7 +37,7 @@ yield = optimizer
 BUILTINS (68 total)
 
 __import__ = 
-abs = 
+abs = mbomb007
 all =
 any = 
 ascii = 
@@ -57,7 +57,7 @@ divmod =
 enumerate = elendia
 eval = 
 exec = 
-filter = 
+filter = fatalize
 float = 
 format = 
 frozenset = 
@@ -103,6 +103,6 @@ super =
 tuple = 
 type = 
 vars = 
-zip = 
+zip = quartata
 
 (all subject to change)
