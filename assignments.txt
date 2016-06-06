@@ -1,8 +1,8 @@
 KEYWORDS
 
-False = Dennis
+False = 
 None = 
-True = 
+True = Dennis
 and = Helka
 as = 
 assert = 
@@ -102,5 +102,5 @@ max =
 round = 
 delattr = 
 hash = 
-memoryview = BrianTrompsett
+memoryview = BrianTompsett
 set = 
