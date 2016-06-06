@@ -30,7 +30,7 @@ pass = Maltysen
 raise = 
 return = Alex
 try = 
-while = 
+while = molarmanful
 with = 
 yield =
 
