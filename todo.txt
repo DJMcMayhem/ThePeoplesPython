@@ -1,15 +1,12 @@
 Usernames to definitely assign:
 
 chris jester-young
-digital trauma
 howard
 primo
 davidc
 rainbolt
 jimmy23013
 orlp
-NathanMerrill
-trichoplax
 isaacg
 marinus
 jakube
@@ -27,5 +24,3 @@ kenny lau
 randomra
 ugoren
 steve verrill
-minxomat
-minibits
