@@ -1,108 +1,66 @@
-KEYWORDS (33 total)
-
-False = Martin
-None = Geobits
-True = Dennis
-and = adnan
-as = rainbolt
-assert = buttner
-break = flawr
-class = aditsu
-continue = katenkyo
-def = quill
-del = nathan
-elif = hobbies
-else = helkahomba
-except = irk
-finally = ender
-for = peter
-from = conor
-global = gnibbler
-if = calvins
-import = obrien
-in = taylor
-is = fryamtheeggman
-lambda = starman
-nonlocal = sp3000
-not = phinotpi
-or = xnor
-pass = maltysen
-raise = mego
-return = alex
-try = easterly
-while = molarmanful
-with = minxomat
-yield = optimizer
-
-BUILTINS (68 total)
-
-__import__ = 
-abs = mbomb007
-all = digital
-any = trauma
-ascii = asciionly
-bin = zyabin
-bool = bkul
-bytearray = 
-bytes = 
-callable = 
-chr = chris
-classmethod = jesteryoung
-compile = 
-complex = 
-delattr = 
-dict = 
-dir = 
-divmod = 
-enumerate = elendia
-eval = gcampbell
-exec = 
-filter = fatalize
-float = 
-format = 
-frozenset = 
-getattr = 
-globals = 
-hasattr = 
-hash = 
-help = sandbox
-hex = 
-id = zgarb
-input = phase
-int = loovjo
-isinstance = 
-issubclass = minibits
-iter = 
-len = lynn
-list = 
-locals = 
-map = doorknob
-max = upgoat
-memoryview = briantompsett
-min = downgoat
-next = 
-object = 
-oct = 
-open = jimmy23013
-ord = destructiblewatermelon
-pow = ninjabearmonkey
-print = you
-property = 
-range = djmcmayhem
-repr = 
-reversed = 
-round = qwerpderp
-set = 
-setattr = 
-slice = 
-sorted = orlp
-staticmethod = timmyd
-str = 
-sum = muddyfish
-super = balint
-tuple = trichoplax
-type = 
-vars = 
-zip = quartata
-
-(all subject to change)
+{"Martin":"False",
+"Geobits":"None",
+"Dennis":"True",
+"adnan":"and",
+"rainbolt":"as",
+"buttner":"assert",
+"flawr":"break",
+"aditsu":"class",
+"katenkyo":"continue",
+"quill":"def",
+"nathan":"del",
+"hobbies":"elif",
+"helkahomba":"else",
+"irk":"except",
+"ender":"finally",
+"peter":"for",
+"conor":"from",
+"gnibbler":"global",
+"calvins":"if",
+"obrien":"import",
+"taylor":"in",
+"fryamtheeggman":"is",
+"starman":"lambda",
+"sp3000":"nonlocal",
+"phinotpi":"not",
+"xnor":"or",
+"maltysen":"pass",
+"mego":"raise",
+"alex":"return",
+"easterly":"try",
+"molarmanful":"while",
+"minxomat":"with",
+"optimizer":"yield",
+"mbomb007":"abs",
+"digital":"all",
+"trauma":"any",
+"asciionly":"ascii",
+"zyabin":"bin",
+"bkul":"bool",
+"chris":"chr",
+"jesteryoung":"classmethod",
+"elendia":"enumerate",
+"gcampbell":"eval",
+"fatalize":"filter",
+"sandbox":"help",
+"zgarb":"id",
+"phase":"input",
+"loovjo":"int",
+"minibits":"issubclass",
+"lynn":"len",
+"doorknob":"map",
+"upgoat":"max",
+"briantompsett":"memoryview",
+"downgoat":"min",
+"jimmy23013":"open",
+"destructiblewatermelon":"ord",
+"ninjabearmonkey":"pow",
+"you":"print",
+"djmcmayhem":"range",
+"qwerpderp":"round",
+"orlp":"sorted",
+"timmyd":"staticmethod",
+"muddyfish":"sum",
+"balint":"super",
+"trichoplax":"tuple",
+"zip":"quartata"}
