@@ -6,7 +6,9 @@ Still finishing [name assignments](https://github.com/DJMcMayhem/ThePeoplesPytho
 
 [Original idea.](https://chat.stackexchange.com/transcript/message/30148665#30148665)
 
-The `builtins_left.txt` file is a list of builtins that are unassigned as of yet (all the keywords are taken).  The `assignments.txt` is a file of the keywords and builtin functions that _are_ assigned.
+The `builtins_left.txt` file is a list of builtins that are unassigned as of yet (all the keywords are taken).  This is unused in the script, it's just in case people want to add their names.
+
+The `assignments.txt` is a file of the keywords and builtin functions that _are_ assigned.  `assignments-reversed.txt` is the same file, but with the name/(builtin|keyword) swapped.
 
 Both of these are in dict form, to make it easier to use them in a script.
 
