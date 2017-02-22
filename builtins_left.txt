@@ -21,7 +21,6 @@
 "locals":"",
 "next":"",
 "object":"",
-"oct":"",
 "repr":"",
 "reversed":"",
 "set":"",
