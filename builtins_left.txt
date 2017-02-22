@@ -1,5 +1,4 @@
-{"__import__":"",
-"bytearray":"",
+{"bytearray":"",
 "bytes":"",
 "callable":"",
 "compile":"",
