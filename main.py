@@ -2,6 +2,7 @@
 
 import tokenize
 import ast
+import sys
 
 
 def handle_token(type, token, (srow, scol), (erow, ecol), line):
@@ -29,5 +30,11 @@ def run(assignments="assignments.txt",open_from="peoples.txt"):
 
 
 if __name__ == "__main__":
-	exec run()
+	if len(sys.argv) > 1:
+		if len(sys.argv) > 2:
+			exec run(assignments=sys.argv[1],open_from=sys.argv[2])
+		else:
+			exec run(assignments=sys.argv[1])
+	else:
+		exec run()
 
