@@ -33,6 +33,7 @@ Stock modules:
 - `datetime`
 - `random`
 - `re`
+- `this`
 
 Other modules:
 
