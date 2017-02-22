@@ -4,7 +4,6 @@
 "compile":"",
 "delattr":"",
 "dict":"",
-"dir":"",
 "divmod":"",
 "exec":"",
 "format":"",
