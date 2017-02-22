@@ -9,7 +9,6 @@
 "divmod":"",
 "exec":"",
 "format":"",
-"frozenset":"",
 "getattr":"",
 "globals":"",
 "hasattr":"",
@@ -26,6 +25,5 @@
 "set":"",
 "setattr":"",
 "slice":"",
-"str":"",
 "type":"",
 "vars":""}
