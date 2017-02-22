@@ -2,7 +2,6 @@
 "bytes":"",
 "callable":"",
 "compile":"",
-"delattr":"",
 "dict":"",
 "divmod":"",
 "exec":"",
