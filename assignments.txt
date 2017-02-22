@@ -40,7 +40,7 @@
 "bkul":"bool",
 "chris":"chr",
 "jesteryoung":"classmethod",
-"honnza":"complex,
+"honnza":"complex",
 "elendia":"enumerate",
 "gcampbell":"eval",
 "businesscat":"exec",
