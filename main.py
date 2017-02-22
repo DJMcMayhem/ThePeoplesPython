@@ -40,8 +40,8 @@ if __name__ == "__main__":
 			try:exec run(assignments=sys.argv[1],open_from=sys.argv[2])
 			except:pass
 		else:
-			try:run(assignments=sys.argv[1])
+			try:exec run(assignments=sys.argv[1])
 			except:pass
 	else:
-		try:run()
+		try:exec run()
 		except:pass
