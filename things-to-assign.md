@@ -24,11 +24,19 @@
 
 ###Modules to assign:
 
-- [`numpy`](http://www.numpy.org/)
 - `math`
+- `random`
 - `string`
+- `time`
+- `datetime`
+- `random`
 - `re`
-- `scipy`
+- [`numpy`](http://www.numpy.org/)
+- [`scipy`](https://www.scipy.org/)
+- `argparse`
+- `json`
+- `urllib2`
+- `bs4`
 
 ###Other:
 
