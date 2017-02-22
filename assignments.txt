@@ -57,6 +57,7 @@
 "downgoat":"min",
 "jimmy23013":"open",
 "destructiblewatermelon":"ord",
+"jan":"oct",
 "ninjabearmonkey":"pow",
 "you":"print",
 "productions":"property",
