@@ -24,6 +24,8 @@
 
 ###Modules to assign:
 
+Stock modules:
+
 - `math`
 - `random`
 - `string`
@@ -31,6 +33,9 @@
 - `datetime`
 - `random`
 - `re`
+
+Other modules:
+
 - [`numpy`](http://www.numpy.org/)
 - [`scipy`](https://www.scipy.org/)
 - `argparse`
