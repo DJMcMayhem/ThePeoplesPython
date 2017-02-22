@@ -31,6 +31,7 @@
 "molarmanful":"while",
 "minxomat":"with",
 "optimizer":"yield",
+"wheat":"__import__",
 "mbomb007":"abs",
 "digital":"all",
 "trauma":"any",
