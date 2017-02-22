@@ -16,3 +16,6 @@ Both of these are in dict form, to make it easier to use them in a script.
 ###How to use:
 
 Run `main.py`, by default it assumes the list of assigned names are in `assignments.txt` and the input code you want to run is in `peoples.txt`. It will compile into standard python and execute the compiled output. It will also write the compiled code into `<input-file-name>-output.txt`, so by default `peoples-output.txt`.
+
+
+Do note that due to the shebang, it doesn't work right on some linux distros. Remove the shebang before running.
