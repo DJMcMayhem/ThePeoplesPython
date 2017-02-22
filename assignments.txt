@@ -45,6 +45,7 @@
 "gcampbell":"eval",
 "businesscat":"exec",
 "poke":"dir",
+"votetoclose":"delattr",
 "fatalize":"filter",
 "ataco":"float",
 "luke":"frozenset",
