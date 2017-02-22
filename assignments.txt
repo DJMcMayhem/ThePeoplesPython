@@ -44,6 +44,7 @@
 "elendia":"enumerate",
 "gcampbell":"eval",
 "businesscat":"exec",
+"poke":"dir",
 "fatalize":"filter",
 "ataco":"float",
 "luke":"frozenset",
