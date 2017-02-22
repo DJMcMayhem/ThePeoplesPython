@@ -73,4 +73,5 @@
 "muddyfish":"sum",
 "balint":"super",
 "trichoplax":"tuple",
-"quartata":"zip"}
+"quartata":"zip",
+"pavel":"sys"}
