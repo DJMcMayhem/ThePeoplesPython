@@ -11,7 +11,7 @@ def handle_token(type, token, (srow, scol), (erow, ecol), line):
 	return (type, token, (srow, scol), (erow, ecol), line)
 
 
-def run(assignments="assignments.txt",open_from="peoples.txt"):
+def run(assignments="assignments.txt",open_from="peoples.txt",to_exec=True):
 	with open(assignments, "r") as f:
 		global token_names
 		token_names = ast.literal_eval(f.read())
@@ -32,9 +32,12 @@ def run(assignments="assignments.txt",open_from="peoples.txt"):
 if __name__ == "__main__":
 	if len(sys.argv) > 1:
 		if len(sys.argv) > 2:
-			exec run(assignments=sys.argv[1],open_from=sys.argv[2])
+			try:exec run(assignments=sys.argv[1],open_from=sys.argv[2])
+			except:pass
 		else:
-			exec run(assignments=sys.argv[1])
+			try:run(assignments=sys.argv[1])
+			except:pass
 	else:
-		exec run()
+		try:run()
+		except:pass
 
