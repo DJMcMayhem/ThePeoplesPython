@@ -13,7 +13,6 @@
 "locals":"",
 "next":"",
 "object":"",
-"repr":"",
 "reversed":"",
 "setattr":"",
 "slice":"",
