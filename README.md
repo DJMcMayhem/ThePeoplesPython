@@ -12,7 +12,7 @@ The `assignments.txt` is a file of the keywords and builtin functions that _are_
 
 Both of these are in dict form, to make it easier to use them in a script.
 
-###How to use:
+### How to use:
 
 Run `main.py`, by default it assumes the list of assigned names are in `assignments.txt` and the input code you want to run is in `peoples.txt`. It will compile into standard python and execute the compiled output. It will also write the compiled code into `<input-file-name>-output.txt`, so by default `peoples-output.txt`.
 
@@ -21,8 +21,8 @@ Do note that due to the shebang, it doesn't work right on some linux distros. Re
 
 
 
-###More about requesting your name be added:
+### More about requesting your name be added:
 
 Look in the [`builtins_left.txt`](https://github.com/DJMcMayhem/ThePeoplesPython/blob/master/builtins_left.txt) for a list of the builtins not used yet.  Pick one of those, and ping either @DJMcMayhem or @Riker in [The Nineteenth Byte](chat.stackexchange.com/rooms/240/the-nineteenth-byte).  Make sure to double-check in `assignments.txt` (ctrl-f the one you  want) first.
 
-If you would like to be a module instead, we'll consider it.  There's no list of all the modules not taken yet (for obvious reasons), but they ones that _are_ taken are in `assignments.txt` so you can check there.
+If you would like to be a module instead, we'll consider it.  There's no list of all the modules not taken yet (for obvious reasons), but the ones that _are_ taken are in `assignments.txt` so you can check there.
