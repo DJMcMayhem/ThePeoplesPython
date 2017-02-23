@@ -67,6 +67,7 @@
 "productions":"property",
 "djmcmayhem":"range",
 "qwerpderp":"round",
+"legionmammal978":"set",
 "orlp":"sorted",
 "timmyd":"staticmethod",
 "eth":"str",
