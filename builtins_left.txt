@@ -7,7 +7,7 @@
 "format":"",
 "getattr":"",
 "globals":"",
-"hex":"",
+"hash":"",
 "isinstance":"",
 "iter":"",
 "locals":"",
