@@ -49,6 +49,7 @@
 "fatalize":"filter",
 "ataco":"float",
 "luke":"frozenset",
+"betseg":"hasattr",
 "sandbox":"help",
 "zgarb":"id",
 "phase":"input",
