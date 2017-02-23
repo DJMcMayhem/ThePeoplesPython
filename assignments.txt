@@ -69,6 +69,7 @@
 "you":"print",
 "productions":"property",
 "djmcmayhem":"range",
+"erik":"repr",
 "qwerpderp":"round",
 "legionmammal978":"set",
 "orlp":"sorted",
