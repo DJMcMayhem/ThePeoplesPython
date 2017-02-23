@@ -7,7 +7,6 @@
 "format":"",
 "getattr":"",
 "globals":"",
-"hasattr":"",
 "hash":"",
 "hex":"",
 "isinstance":"",
