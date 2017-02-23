@@ -72,6 +72,7 @@
 "erik":"repr",
 "qwerpderp":"round",
 "legionmammal978":"set",
+"lliwtelracs":"slice",
 "orlp":"sorted",
 "timmyd":"staticmethod",
 "eth":"str",
