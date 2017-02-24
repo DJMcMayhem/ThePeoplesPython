@@ -1,24 +1,36 @@
-#!/usr/bin/env python2
+#!/usr/bin/env python
 
 import tokenize
-import ast
 import sys
+import json
 
 
-		
-def handle_token(type, token, (srow, scol), (erow, ecol), line):
+def handle_token(type_, token, (srow, scol), (erow, ecol), line):
 	# Return the info about the tokens, if it's a NAME token then replace it
 
-	if tokenize.tok_name[type] == "NAME":
+	if tokenize.tok_name[type_] == "NAME":
 		token = token_names.get(token, token)
-	return (type, token, (srow, scol), (erow, ecol), line)
+	return type_, token, (srow, scol), (erow, ecol), line
 
 
-def run(assignments="assignments.txt",open_from="peoples.txt"):
+def run(assignments="assignments.txt", open_from="peoples.txt", \
+										to_write=True, to_exec=True):
+
+	'''
+	- `assignments` is the file to open the list of names from
+	- `open_from` is the file to get the input code from
+	- `to_write` is for toggling writing the compiled code to a file
+	- `to_exec` is for toggling executing the code
+
+	Both `to_write` and `to_exec` are for using this code in another
+	file by way of importing it.
+
+	'''
+
 	with open(assignments, "r") as f:
 		# Read the replacements into token_names
 		global token_names
-		token_names = ast.literal_eval(f.read())
+		token_names = json.load(f)
 
 	with open(open_from) as source:
 		# Get the tokenized version of the input, replace it, and untokenize into pretty output
@@ -27,21 +39,29 @@ def run(assignments="assignments.txt",open_from="peoples.txt"):
 
 		output = tokenize.untokenize(handled_tokens)
 
-	with open(open_from[:-4]+"-output.txt",'w') as outfile:
-		# Write to the output file
-		outfile.write(output)
-	
+	if to_write:
+		with open(open_from[:-4]+"-output.txt", 'w') as outfile:
+			# Write to the output file
+			outfile.write(output)
+
+	if to_exec:
+		exec output
+
 	return output
 
 
 if __name__ == "__main__":
-	if len(sys.argv) > 1:
-		if len(sys.argv) > 2:
-			try:exec run(assignments=sys.argv[1],open_from=sys.argv[2])
-			except:pass
+	token_names = None
+	try:
+		if len(sys.argv) > 1:
+			if len(sys.argv) > 2:
+				run(assignments=sys.argv[1], open_from=sys.argv[2])
+
+			else:
+				run(assignments=sys.argv[1])
 		else:
-			try:exec run(assignments=sys.argv[1])
-			except:pass
-	else:
-		try:exec run()
-		except:pass
+			run()
+
+	except Exception as e:
+		print "An exception has occurred:\n%s" % str(e)
+
