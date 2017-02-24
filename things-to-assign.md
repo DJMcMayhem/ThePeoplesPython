@@ -31,7 +31,6 @@ Stock modules:
 - `string`
 - `time`
 - `datetime`
-- `random`
 - `re`
 - `this`
 
