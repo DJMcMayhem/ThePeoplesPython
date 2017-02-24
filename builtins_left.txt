@@ -1,6 +1,5 @@
 {"bytearray":"",
 "bytes":"",
-"callable":"",
 "compile":"",
 "dict":"",
 "divmod":"",
