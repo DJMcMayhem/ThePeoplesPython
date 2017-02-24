@@ -38,6 +38,7 @@
 "asciionly":"ascii",
 "zyabin":"bin",
 "bkul":"bool",
+"tuxcopter":"callable",
 "chris":"chr",
 "jesteryoung":"classmethod",
 "honnza":"complex",
