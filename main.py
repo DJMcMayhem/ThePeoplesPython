@@ -24,7 +24,6 @@ def run(assignments="assignments.txt", open_from="peoples.txt", \
 
 	Both `to_write` and `to_exec` are for using this code in another
 	file by way of importing it.
-
 	'''
 
 	with open(assignments, "r") as f:
@@ -45,7 +44,7 @@ def run(assignments="assignments.txt", open_from="peoples.txt", \
 			outfile.write(output)
 
 	if to_exec:
-		exec output
+		exec output in globals(), locals()
 
 	return output
 
@@ -56,7 +55,6 @@ if __name__ == "__main__":
 		if len(sys.argv) > 1:
 			if len(sys.argv) > 2:
 				run(assignments=sys.argv[1], open_from=sys.argv[2])
-
 			else:
 				run(assignments=sys.argv[1])
 		else:
@@ -64,4 +62,5 @@ if __name__ == "__main__":
 
 	except Exception as e:
 		print "An exception has occurred:\n%s" % str(e)
+
 
